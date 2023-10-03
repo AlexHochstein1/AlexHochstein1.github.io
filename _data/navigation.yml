@@ -1,10 +1,5 @@
 # main links links
 main:
-  - title: "Origami Simulator"
-    url: /origami/
-
-  - title: "Nature Simulator"
-    url: /nature/    
-
-  - title: "Gobblet"
-    url: /gobblet/    
+  - title: "Projects"
+    url: /portfolio/
+    
