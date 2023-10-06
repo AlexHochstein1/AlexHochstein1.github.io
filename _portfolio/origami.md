@@ -1,5 +1,5 @@
 ---
-title: "Origami Simulator - September 2023"
+title: "Origami Simulator (Sep. 2023)"
 excerpt: "Simulates folding 2D origami"
 collection: portfolio
 ---
