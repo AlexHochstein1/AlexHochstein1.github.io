@@ -10,13 +10,19 @@ redirect_from:
 
 This portfolio contains video demos of projects that I coded for fun in my spare time. Each project was coded in Java.
 
+&nbsp;
+
 Origami Simulator (Sep. 2023)
 ======
 {% include youtube.html id="O_kQ1C4yZCE" %}
 
 &nbsp;
 
-Blah blah blah
+This interactive simulator allows the user to fold 2D origami.
+
+In order to fold a region R of the origami, which involves reflecting R over a fold line, a three-step recursive algorithm is used. First, any regions which overlap with R, and therefore are in the way of R being folded, are recursively folded. Second, the region R itself is folded. Third, any regions attached to R are recursively folded.
+
+&nbsp;
 
 Nature Simulator (Apr. 2023)
 ======
@@ -24,7 +30,13 @@ Nature Simulator (Apr. 2023)
 
 &nbsp;
 
-BLah blah blahsefwef
+This simulator began with a simple idea: I thought I could draw a tree by first drawing a line segment as the base of the tree, then drawing line segments that branch off of the base of the tree at random angles, and continuing to draw line segments that branch off the other line segments at random angles.
+
+This initial approach placed no limits on how the tree branches grew; they grew on top of each other, and to arbitrary distances. As the tree branched off exponentially, the program struggled to run, so I modified the code to prevent the branches from intersecting and growing past the edge of the screen.
+
+Over time, I slowly added more and more details to the simulator. I drew the tree branches thicker near the base and thinner in the farthest branches. I added apples and leaves to the trees. I used random generation strategies to make the simulation organic; for example, farther from the base of the tree, branches, apples, and leaves grow more frequently. Eventually, I added weather to the simulator, and I added inchworms which are animated to crawl up the trees.
+
+&nbsp;
 
 Gobblet (Dec. 2022)
 ======
