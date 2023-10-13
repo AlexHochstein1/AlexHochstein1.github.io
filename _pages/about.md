@@ -14,13 +14,25 @@ Origami Simulator (Sep. 2023)
 ======
 {% include youtube.html id="O_kQ1C4yZCE" %}
 
+Blah blah blah
+
 Nature Simulator (Apr. 2023)
 ======
 {% include youtube.html id="oQ_uG5Pf7wM" %}
 
+BLah blah blahsefwef
+
 Gobblet (Dec. 2022)
 ======
 {% include youtube.html id="G4yr9P4P2Gk" %}
+
+This project simulates a computer playing against itself in the game of Gobblet.
+
+Gobblet is a one-on-one game where one player controls the black pieces and the other player controls the white pieces. A player wins by using their pieces to make 4-in-a-row along a row, column, or diagonal of the 4x4 board. The catch is that the pieces are shaped like upside-down cups and come in four sizes, meaning a player can cover an opponent’s piece by placing a larger piece on top of it.
+
+I drew the pieces as concentric circles so that you can visualize which pieces have “gobbled” up other pieces, though in the physical game you can only see the topmost, biggest piece.
+
+The computer approximates the best move at each point of the game using a recursive algorithm which considers a small number moves into the future. The computer has a perfect memory of which pieces have gobbled up other pieces, another justification for drawing gobbled-up pieces as smaller concentric circles.
 
 Site-wide configuration
 ======
