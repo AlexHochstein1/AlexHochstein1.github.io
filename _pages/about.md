@@ -32,9 +32,9 @@ Nature Simulator (Apr. 2023)
 
 This simulator began with a simple idea: I thought I could draw a tree by first drawing a line segment as the base of the tree, then drawing line segments that branch off of the base of the tree at random angles, and continuing to draw line segments that branch off the other line segments at random angles.
 
-This initial approach placed no limits on how the tree branches grew; they grew on top of each other, and to arbitrary distances. As the tree branched off exponentially, the program struggled to run, so I modified the code to prevent the branches from intersecting and growing past the edge of the screen.
+This initial approach placed no limits on how the tree branches grew; they grew on top of each other, and to arbitrary distances. As the tree branched off exponentially, the program struggled to run, so I modified the code to prevent the branches from intersecting and prevent them from growing past the edge of the screen.
 
-Over time, I slowly added more and more details to the simulator. I drew the tree branches thicker near the base and thinner in the farthest branches. I added apples and leaves to the trees. I used random generation strategies to make the simulation organic; for example, farther from the base of the tree, branches, apples, and leaves grow more frequently. Eventually, I added weather to the simulator, and I added inchworms which are animated to crawl up the trees.
+I added many details to the simulator over time. I added apples and leaves to the trees. I used random generation strategies to make the simulation organic; for example, farther from the base of the tree, branches, apples, and leaves grow more frequently. Eventually, I added weather to the simulator, and I added inchworms which are animated to crawl up the trees.
 
 &nbsp;
 
@@ -51,3 +51,5 @@ Gobblet is a one-on-one game where one player controls the black pieces and the 
 I drew the pieces as concentric circles so that you can visualize which pieces have “gobbled” up other pieces, though in the physical game you can only see the topmost, biggest piece.
 
 The computer approximates the best move at each point of the game using a recursive algorithm which considers a small number moves into the future. The computer has a perfect memory of which pieces have gobbled up other pieces, another justification for drawing gobbled-up pieces as smaller concentric circles.
+
+To approximate the best move at each point of the game at a depth of D moves, the computer considers all of its possible moves; for each possible move, the computer recursively approximates the sequence best moves for the next (D - 1) moves into the future.
