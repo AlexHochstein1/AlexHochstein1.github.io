@@ -14,17 +14,23 @@ Origami Simulator (Sep. 2023)
 ======
 {% include youtube.html id="O_kQ1C4yZCE" %}
 
+&nbsp;
+
 Blah blah blah
 
 Nature Simulator (Apr. 2023)
 ======
 {% include youtube.html id="oQ_uG5Pf7wM" %}
 
+&nbsp;
+
 BLah blah blahsefwef
 
 Gobblet (Dec. 2022)
 ======
 {% include youtube.html id="G4yr9P4P2Gk" %}
+
+&nbsp;
 
 This project simulates a computer playing against itself in the game of Gobblet.
 
