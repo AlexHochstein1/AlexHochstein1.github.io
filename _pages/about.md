@@ -12,15 +12,15 @@ This portfolio contains video demos of projects that I coded for fun in my spare
 
 Origami Simulator (Sep. 2023)
 ======
-
+{% include youtube.html id="O_kQ1C4yZCE" %}
 
 Nature Simulator (Apr. 2023)
 ======
-
+{% include youtube.html id="oQ_uG5Pf7wM" %}
 
 Gobblet (Dec. 2022)
 ======
-
+{% include youtube.html id="G4yr9P4P2Gk" %}
 
 Site-wide configuration
 ======
