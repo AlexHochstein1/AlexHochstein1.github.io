@@ -52,4 +52,4 @@ I drew the pieces as concentric circles so that you can visualize which pieces h
 
 The computer approximates the best move at each point of the game using a recursive algorithm which considers a small number moves into the future. The computer has a perfect memory of which pieces have gobbled up other pieces, another justification for drawing gobbled-up pieces as smaller concentric circles.
 
-To approximate the best move at each point of the game at a depth of D moves, the computer considers all of its possible moves; for each possible move, the computer recursively approximates the sequence best moves for the next (D - 1) moves into the future.
+To approximate the best next move at a depth of D moves, the computer considers all of its possible moves; for each possible move, the computer recursively approximates the sequence of best moves for the next (D - 1) moves into the future, and records the outcome at the end of that sequence of moves. The computer chooses the move with the best future outcome.
