@@ -8,11 +8,39 @@ redirect_from:
   - /about.html
 ---
 
-This portfolio contains video demos of projects that I coded for fun in my spare time. Each project was coded in Java.
+This portfolio contains video demos of projects that I coded in Java.
 
 &nbsp;
 
-Origami Simulator (Sep. 2023)
+Factory Tower Defense | 4-Person Team | Jan. 2024 - Apr. 2024
+======
+{% include youtube.html id="U4LsK_02grY" %}
+
+&nbsp;
+
+This showcases a core feature of our game: complex networks of conveyor belts. I implemented these conveyor belts with a graph algorithm which has optimal time complexity.
+
+&nbsp;
+
+{% include youtube.html id="U58r7s-fbJk" %}
+
+&nbsp;
+
+This is the final level of our game. All of the buildings have already been set up by the player.
+
+My major contributions to the game include:
+* implementing the conveyor belts which automatically take items out of buildings and insert them into other buildings
+* implementing intuitive click-and-drag controls for placing buildings
+* rendering the enemy path by combining quarter-tile pieces so our artist only had to draw 4 sprites
+* developing a tool which programmatically drew the pixel art for the shadows on curved conveyor belts
+* designing the level-select screen which includes map previews
+* developing UI elements to display a machine's recipe
+* developing UI elements to display the list of enemies in a wave
+* creating a GUI map editor for developers
+
+&nbsp;
+
+Origami Simulator | Solo | Sep. 2023
 ======
 {% include youtube.html id="O_kQ1C4yZCE" %}
 
@@ -24,7 +52,7 @@ In order to fold a region R of the origami, which involves reflecting R over a f
 
 &nbsp;
 
-Nature Simulator (Apr. 2023)
+Nature Simulator | Solo | Apr. 2023
 ======
 {% include youtube.html id="oQ_uG5Pf7wM" %}
 
@@ -38,7 +66,7 @@ I added many details to the simulator over time. I added apples and leaves to th
 
 &nbsp;
 
-Gobblet (Dec. 2022)
+Gobblet | Solo | Dec. 2022
 ======
 {% include youtube.html id="G4yr9P4P2Gk" %}
 
