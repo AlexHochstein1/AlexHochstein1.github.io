@@ -14,22 +14,12 @@ This portfolio contains video demos of projects that I coded in Java.
 
 Factory Tower Defense | 4-Person Team | Jan. 2024 - Apr. 2024
 ======
-{% include youtube.html id="U4LsK_02grY" %}
-
-&nbsp;
-
-This showcases a core feature of our game: complex networks of conveyor belts. I implemented these conveyor belts with a graph algorithm which has optimal time complexity.
-
-&nbsp;
-
 {% include youtube.html id="U58r7s-fbJk" %}
 
 &nbsp;
 
-This is the final level of our game. All of the buildings have already been set up by the player.
-
-My major contributions to the game include:
-* implementing the conveyor belts which automatically take items out of buildings and insert them into other buildings
+This is the final level of a video game I helped develop. My major contributions to the game include:
+* implementing the conveyor belt networks
 * implementing intuitive click-and-drag controls for placing buildings
 * rendering the enemy path by combining quarter-tile pieces so our artist only had to draw 4 sprites
 * developing a tool which programmatically drew the pixel art for the shadows on curved conveyor belts
@@ -37,6 +27,14 @@ My major contributions to the game include:
 * developing UI elements to display a machine's recipe
 * developing UI elements to display the list of enemies in a wave
 * creating a GUI map editor for developers
+
+&nbsp;
+
+{% include youtube.html id="U4LsK_02grY" %}
+
+&nbsp;
+
+This showcases a core feature of our game: complex networks of conveyor belts. I implemented these conveyor belts with a graph algorithm which has optimal time complexity.
 
 &nbsp;
 
